@@ -63,10 +63,20 @@
     background-color: #f4f9eb;
 }
 
+.bg-seccion .card {
+    border: none;
+    border-radius: .50rem;
+}
+
 /*Seccion de contacto*/
 .div-flotante {
     margin-top: -100px;
     position: relative;
+}
+
+.div-flotante .range {
+    background-color: #fff;
+    box-shadow: 0 0px 7px 0 rgb(0 0 0 / 13%);
 }
 
 .div-flotante-2 {
@@ -74,9 +84,9 @@
     position: relative;
 }
 
-.div-flotante .range {
-    background-color: #fff;
-    box-shadow: 0 0px 7px 0 rgb(0 0 0 / 13%);
+.div-flotante-2 .card {
+    border: none;
+    border-radius: .50rem;
 }
 
 .hr-title {
@@ -101,4 +111,15 @@
 .btnContain{
     width: 100%;
     bottom: 40px;
+}
+.bg-gray {
+    background: #343C3E;
+}
+
+/*Lista*/
+.ullist {
+    position: relative;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
 }
