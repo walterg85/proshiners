@@ -1,0 +1,94 @@
+/*Logotipo*/
+.logo_img {
+    max-height: 52px;
+    width: auto;
+    filter: invert(1);
+}
+
+/*Imagen de cabcera*/
+.hero-wrap {
+    background-image: url("https://technext.github.io/cleaning-company/images/bg_1.jpg");
+    width: 100%;
+    height: 100%;
+    position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+@media (max-width: 1199.98px) {
+    .hero-wrap {
+        background-position: center center !important; 
+    }
+}
+
+.hero-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .3;
+    background: #000000;
+}
+
+/*image servicios*/
+.img-servicios {
+    max-height: 52px;
+    width: auto;
+}
+
+/*Texto general*/
+.texto-green {
+    color: #08AA41;
+}
+
+/*Botones*/
+.btn-green {
+    color: #fff;
+    background-color: #45ac41;
+    border-color: #47ad43;
+}
+
+.btn-outline-green {
+    color: #45ac41;
+    border-color: #45ac41;
+}
+
+/*Secciones*/
+.bg-seccion {
+    background-color: #f4f9eb;
+}
+
+/*Seccion de contacto*/
+.div-flotante {
+    margin-top: -100px;
+    position: relative;
+}
+
+.div-flotante .range {
+    background-color: #fff;
+    box-shadow: 0 0px 7px 0 rgb(0 0 0 / 13%);
+}
+
+.hr-title {
+  width: 60px; 
+  background-color: #000000; 
+  height: 3px
+}
+
+/*Banner parallax*/
+.banner {
+  background-image: url("../img/bgpricing.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mt-12 {
+    margin-top: 12rem !important;
+}
